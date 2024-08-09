@@ -65,13 +65,19 @@ export const EmailForm = () => {
                     />
                 </form>
                 <div className='flex w-full justify-center items-center space-x-4 py-4'>
-                    <div className='border border-white p-1 rounded-full cursor-pointer'>
+                    <div className='border border-white p-1 rounded-full cursor-pointer'
+                        href = "https://github.com/shivangdatta"
+                    >
                         <FaGithub size={32} />
                     </div>
-                    <div className='border border-white p-1 rounded-full cursor-pointer'>
+                    <div className='border border-white p-1 rounded-full cursor-pointer'
+                        href = "https://www.linkedin.com/in/shivang-datta-aa8127256/"
+                    >
                         <FaLinkedin size={32} className='rounded-full' />
                     </div>
-                    <div className='border border-white p-1 rounded-full cursor-pointer'>
+                    <div className='border border-white p-1 rounded-full cursor-pointer
+                        href = "https://leetcode.com/u/shivang_datta/"
+                    '>
                         <SiLeetcode size={32} />
                     </div>
                 </div>
