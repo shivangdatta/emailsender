@@ -12,7 +12,7 @@ export const EmailForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_s7htxdq', 'contact_form', form.current, 'z5zepmi0R4KULEekF')
+        emailjs.sendForm('service------', 'contact_form', form.current, 'z5zepmi------')
             .then((result) => {
                 console.log(result.text);
                 alert('Email sent successfully!');
